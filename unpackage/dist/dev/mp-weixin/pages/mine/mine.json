@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "my-order": "./module/my_order",
+    "function": "./module/function",
+    "recommend": "./module/recommend",
+    "rider": "./module/rider"
+  }
+}

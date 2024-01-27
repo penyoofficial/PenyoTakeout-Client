@@ -1,0 +1,9 @@
+{
+  "name": "select-order",
+  "dependencies": {
+    "uni-pay": "file:../../../uni_modules/uni-pay/uniCloud/cloudfunctions/common/uni-pay"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "小熊代拿",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-card": "../../uni_modules/uni-card/components/uni-card/uni-card",
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-load-more": "../../uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "home-page": "./module/home-page"
+  }
+}

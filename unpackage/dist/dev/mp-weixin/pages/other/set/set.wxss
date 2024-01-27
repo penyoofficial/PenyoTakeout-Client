@@ -1,0 +1,38 @@
+
+page {
+		background-color: #F8F8F8;
+}
+.top-box {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+}
+.text {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+}
+.compile {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+}
+.button {
+		height: 80rpx;
+		text-align: center;
+		line-height: 80rpx;
+		margin: 30rpx 20rpx;
+		color: #fff;
+		border-radius: 80rpx;
+		font-size: 30rpx;
+		background-color: #27ba9b;
+}
+.right-text {
+		text-align: end;
+		margin-left: auto;
+		font-size: 15px;
+		color: #515151;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+}

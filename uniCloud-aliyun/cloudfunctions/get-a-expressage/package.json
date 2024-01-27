@@ -1,0 +1,7 @@
+{
+  "name": "get-a-expressage",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,21 @@
+
+page {
+		background-color: #F8F8F8;
+}
+.farme {
+		margin: 0 auto;
+		margin-bottom: 10px;
+		width: 95%;
+		background-color: #ffffff;
+		border-radius: 5px;
+}
+.button {
+		height: 80rpx;
+		text-align: center;
+		line-height: 80rpx;
+		margin: 30rpx 20rpx;
+		color: #fff;
+		border-radius: 80rpx;
+		font-size: 30rpx;
+		background-color: #27ba9b;
+}

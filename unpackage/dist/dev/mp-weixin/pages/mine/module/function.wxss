@@ -1,0 +1,27 @@
+
+.farme {
+		margin: 0 auto;
+		width: 95%;
+		height: 200px;
+		background-color: #ffffff;
+		border-radius: 5px;
+}
+.module-box {
+		margin-top: 15px;
+		width: 20%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+}
+.buttom-box {
+		background-color: #FFF;
+		width: 20%;
+		padding: 0;
+		margin: 0;
+		margin-top: 5px;
+		margin-left: 2.5px;
+}
+.buttom-box::after {
+		border: #FFF solid;
+}

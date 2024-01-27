@@ -1,0 +1,7 @@
+{
+  "name": "get-address-byid",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

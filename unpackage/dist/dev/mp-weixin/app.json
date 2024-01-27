@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/order/order",
+    "pages/login/login",
+    "pages/other/set/set",
+    "pages/other/data/data",
+    "pages/other/about/about",
+    "pages/other/run/run",
+    "pages/address/address",
+    "pages/form-list/expressage/expressage",
+    "pages/address/exit/exit",
+    "pages/address/add/add",
+    "pages/other/client/client",
+    "pages/form-list/garbage/garbage",
+    "pages/form-list/object/object",
+    "uni_modules/uni-pay/pages/success/success",
+    "pages/order-details/order-details"
+  ],
+  "subPackages": [
+    {
+      "root": "classification",
+      "pages": [
+        "system/system",
+        "account/account",
+        "statistics/statistics",
+        "fund/fund",
+        "order-details/order-details",
+        "withdraw/withdraw"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小熊代拿",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#efb336",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "iconPath": "static/tabbar/home1.png",
+        "selectedIconPath": "static/tabbar/home2.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tabbar/mine1.png",
+        "selectedIconPath": "static/tabbar/mine2.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,12 @@
+
+page {
+		background-color: #f8f8f8;
+}
+.coard {
+		margin: 0 auto;
+		margin-bottom: 10px;
+		width: 95%;
+		border-radius: 10px;
+		background-color: #ffffff;
+		z-index: 1;
+}

@@ -1,0 +1,1 @@
+<view><view class="example-body" style="padding:0px 10px 10px 10px"><view wx:for="{{a}}" wx:for-item="item" wx:key="d"><view class="uni-box"><uni-title wx:if="{{item.b}}" class="h3" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"></uni-title></view><view><text class="uni-text">{{item.c}}</text></view></view></view></view>

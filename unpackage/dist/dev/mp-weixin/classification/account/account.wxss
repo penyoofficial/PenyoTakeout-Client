@@ -1,0 +1,12 @@
+
+page {
+		background-color: #f8f8f8;
+}
+.module-box {
+		margin-top: 15px;
+		width: 25%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+}

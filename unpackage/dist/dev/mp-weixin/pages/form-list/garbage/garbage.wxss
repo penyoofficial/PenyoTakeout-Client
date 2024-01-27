@@ -1,0 +1,35 @@
+
+page {
+		background-color: #f8f8f8;
+}
+.farme {
+		margin: 0 auto;
+		margin-bottom: 10px;
+		width: 95%;
+		background-color: #ffffff;
+		border-radius: 5px;
+}
+.section-box {
+		margin: 0 auto;
+		width: 95%;
+		border-bottom: 1px solid #EEEEEE;
+}
+.plaClass {
+		text-align: right;
+}
+.uni-input {
+		text-align: right;
+}
+.clike-box {
+		width: 120px;
+		height: 40px;
+		border-radius: 50px;
+		background-color: #27ba9b;
+		color: #ffffff;
+		margin-left: auto;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+}

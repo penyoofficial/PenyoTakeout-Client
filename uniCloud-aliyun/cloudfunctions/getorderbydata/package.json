@@ -1,0 +1,7 @@
+{
+  "name": "getorderbydata",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

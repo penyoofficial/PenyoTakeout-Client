@@ -1,0 +1,7 @@
+{
+  "name": "get-single-dose",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

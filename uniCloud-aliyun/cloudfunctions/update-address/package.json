@@ -1,0 +1,7 @@
+{
+  "name": "update-address",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "a-merchant",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

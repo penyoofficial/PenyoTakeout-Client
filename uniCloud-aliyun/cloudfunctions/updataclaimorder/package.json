@@ -1,0 +1,7 @@
+{
+  "name": "dataclaimorder",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

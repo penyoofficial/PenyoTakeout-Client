@@ -1,0 +1,196 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小熊代拿",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/other/set/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/other/data/data",
+			"style": {
+				"navigationBarTitleText": "我的资料",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/other/about/about",
+			"style": {
+				"navigationBarTitleText": "小熊代取介绍",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/other/run/run",
+			"style": {
+				"navigationBarTitleText": "成为跑手",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/form-list/expressage/expressage",
+			"style": {
+				"navigationBarTitleText": "快递代取",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/address/exit/exit",
+			"style": {
+				"navigationBarTitleText": "编辑地址",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/address/add/add",
+			"style": {
+				"navigationBarTitleText": "新建地址",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/other/client/client",
+			"style": {
+				"navigationBarTitleText": "问题反馈",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/form-list/garbage/garbage",
+			"style": {
+				"navigationBarTitleText": "垃圾处理",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/form-list/object/object",
+			"style": {
+				"navigationBarTitleText": "物件大小",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		}, {
+			"path": "uni_modules/uni-pay/pages/success/success",
+			"style": {
+				"backgroundColor": "#F8F8F8",
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/order-details/order-details",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}
+	],
+
+	"subPackages": [{
+		"root": "classification",
+		"pages": [{
+				"path": "system/system",
+				"style": {
+					"navigationBarTitleText": "跑手系统",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "account/account",
+				"style": {
+					"navigationBarTitleText": "我的账户",
+					"navigationBarBackgroundColor": "#F8F8F8"
+				}
+			},
+			{
+				"path": "statistics/statistics",
+				"style": {
+					"navigationBarTitleText": "订单统计",
+					"navigationBarBackgroundColor": "#F8F8F8"
+				}
+			},
+			{
+				"path": "fund/fund",
+				"style": {
+					"navigationBarTitleText": "资金明细"
+				}
+			},
+			{
+				"path": "order-details/order-details",
+				"style": {
+					"navigationBarTitleText": "订单详情"
+				}
+			},
+			{
+				"path": "withdraw/withdraw",
+				"style": {
+					"navigationBarTitleText": "提现"
+				}
+			}
+		]
+	}],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小熊代拿",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#efb336",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"iconPath": "static/tabbar/home1.png",
+				"selectedIconPath": "static/tabbar/home2.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "static/tabbar/mine1.png",
+				"selectedIconPath": "static/tabbar/mine2.png",
+				"pagePath": "pages/mine/mine",
+				"text": "我的"
+			}
+		]
+	},
+
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口展示"
+		}
+	}
+}

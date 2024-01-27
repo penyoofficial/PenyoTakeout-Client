@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单统计",
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "uni-tag": "../../uni_modules/uni-tag/components/uni-tag/uni-tag",
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-load-more": "../../uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

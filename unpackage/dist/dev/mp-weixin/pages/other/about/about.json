@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "小熊代取介绍",
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "uni-title": "../../../uni_modules/uni-title/components/uni-title/uni-title"
+  }
+}

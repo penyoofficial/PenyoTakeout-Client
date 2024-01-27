@@ -1,0 +1,7 @@
+{
+  "name": "updata-order",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
